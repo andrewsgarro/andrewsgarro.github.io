@@ -1,7 +1,13 @@
 header {
 	color: black;
-	font: Arial;
+	font-family: Georgia, serif;
 	text-align: center;
+}
+
+.slider {
+	height: 500px;
+	border: solid black 5px;
+	padding: 15px;
 }
 
 .slide {
@@ -12,13 +18,14 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: solid black 5px;
-	padding: 15px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .book {
 	width: 300px;
-	margin: 20px;
+	margin: 30px;
 }
 
 .book-image {
@@ -27,7 +34,7 @@ header {
 }
 
 .book-description {
-	font: Georgia;
+	font-family: Georgia, serif;
 	text-align: left;
 	font-size: 17px;
 	display: none;
@@ -35,7 +42,7 @@ header {
 
 .author {
 	width: 300px;
-	margin: 20px;
+	margin: 30px;
 }
 
 .author-image {
@@ -44,7 +51,7 @@ header {
 }
 
 .author-description {
-	font: Georgia;
+	font-family: Georgia, serif;
 	text-align: left;
 	font-size: 17px;
 	display: none;
@@ -89,7 +96,7 @@ header {
 .copyright {
 	margin-top: 50px;
 	font-size: 12px;
-	font-color: black;
+	font-color: grey;
 	text-align: center;
 }
 
