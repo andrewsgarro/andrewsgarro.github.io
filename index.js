@@ -6,10 +6,26 @@ var main = function() {
     $(".book-description").toggle();
   });
 
+  $(".book").hover(
+    function() {
+      $(this).css('border', '1px solid black');
+    }, function() {
+      $(this).css('border', '');
+    });
+
   $(".author").click(function () {
     $(".author-image").toggle();
     $(".author-description").toggle();
   });
+
+  $(".author").hover(
+    function() {
+      $(this).css('border', '1px solid black');
+    }, function() {
+      $(this).css('border', '');
+    });
+
+
 
   $('.next-arrow').click(function() {
     var currentSlide = $('.active-slide');
