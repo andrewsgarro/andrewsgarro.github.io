@@ -1,0 +1,98 @@
+header {
+	color: black;
+	font: Imperial;
+	text-align: center;
+}
+
+.slide {
+	display: none;
+}
+
+.active-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 5px;
+	padding: 15px;
+}
+
+.book {
+	width: 300px;
+	margin: 20px;
+}
+
+.book-image {
+	width: 300px;
+	height: auto;
+}
+
+.book-description {
+	font: Georgia;
+	text-align: left;
+	font-size: 17px;
+	display: none;
+}
+
+.author {
+	width: 300px;
+	margin: 20px;
+}
+
+.author-image {
+	width: 300px;
+	height: auto;
+}
+
+.author-description {
+	font: Georgia;
+	text-align: left;
+	font-size: 17px;
+	display: none;
+}
+
+.carousel-nav {
+	text-align: center;
+	margin: 20px
+}
+
+.prev-arrow {
+	width: 25px;
+	height: auto;
+	align-content: center;
+}
+
+.next-arrow {
+	width: 25px;
+	height: auto;
+	align-content: center;
+}
+
+.slider-dots {
+	display: inline-block;
+	padding-left: 0;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.slider-dots li {
+	color: grey;
+	display: inline;
+	font-size: 25px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.slider-dots li.active-dot {
+	color: black;
+}
+
+.copyright {
+	margin-top: 50px;
+	font-size: 12px;
+	font-color: black;
+	text-align: center;
+}
+
+
+
+
