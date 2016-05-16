@@ -4,6 +4,13 @@ header {
 	text-align: center;
 }
 
+.logo  {
+	width: 500px;
+	height: auto;
+	text-align: left;
+	
+}
+
 .slider {
 	height: 500px;
 	border: solid black 5px;
