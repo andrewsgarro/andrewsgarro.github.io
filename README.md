@@ -1,0 +1,4 @@
+# andrewsgarro.github.io
+
+This is a virtual library interactive website. The website is a reformatting of the information presented by the following New York Times article: http://www.nytimes.com/2016/05/15/books/review/paperback-row.html?rref=collection%2Fsectioncollection%2Fbooks&amp;action=click&amp;contentCollection=books&amp;region=stream&amp;module=stream_unit&amp;version=latest&amp;contentPlacement=7&amp;pgtype=sectionfront&amp;mtrref=www.nytimes.com
+I have written this site using html, css and jquery.
