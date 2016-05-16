@@ -4,6 +4,10 @@ header {
 	text-align: center;
 }
 
+.page-title {
+	font-family: Arial, sans-serif;
+}
+
 .slider {
 	height: 500px;
 	border: solid black 5px;
