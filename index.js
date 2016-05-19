@@ -81,7 +81,7 @@ var main = function() {
 
   });
   
-  $(document).keypress(function(e) {
+  $(document).keydown(function(e) {
     if (e.keyCode == 37) {
       var currentSlide = $('.active-slide');
       var prevSlide = currentSlide.prev();
